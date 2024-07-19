@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT PAGE</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="head">
+            <img src="lodos.png" class="logo">
+            <div class="link">
+            <b><a href="home.html"> Home</a></b>
+            <b><a href="aboutus.html"> About</a></b>
+            <b><a href="project.html">Project</a></b>
+            <b><a href="contact.html" style="color: red;"> Contact</a></b>
+        </div>
+        <div class="popup"> 
+            <div class="op"><div></div><div></div><div></div></div>
+       <div class="popupcontent">
+           <a href="home.html"> Home</a>
+           <a href="aboutus.html">About Us</a>
+           <a href="project.html"> Project</a>
+           <a href="contact.html" style="color: red;"> Contact</a>
+           <div class="sea1">
+            <form action="contact.html">
+        <input type="search" placeholder="Enter Keyword..." required>
+        <button> Search</button>
+        </form>
+        </div>
+        </div>
+       </div>
+       <div class="sea">
+        <form action="contact.html">
+    <input type="search" placeholder="Enter Keyword..." required>
+    <button> Search</button>
+    </form>
+    </div>
+    <div class="light" onclick="dark()">
+        <img src="sun1.png" width="25" class="sun">
+        <img src="moon.png" width="25" class="moon">
+    </div>
+    </div>
+    <img src="backas.jpg" class="back">
+    <div class="backc"></div>
+    <div class="cont">
+        <h1> Contact Us</h1>
+        <h3> <a href="home.html" style="text-decoration: none; color: black; font-weight: 600;"><b>Home</b></a> ► <c>Contact Us</c></h3>
+    </div>
+    <br><br>
+<div class="get">
+    <div class="gem">
+    <h2> GET IN TOUCH</h2>
+    <div class="ge"><h1> Contact Me</h1></div>
+    </div>
+</div>
+<div class="twi">
+<div class="coy">
+<div class="con">
+        <h1> Contact Info</h1>
+        <h3> I enjoy discussing new projects and design challenges. Please share as much info, as possible so we can get the most out of our first catch-up. </h3>
+    </div>
+<div class="log">
+<div class="ico">
+<img src="loca.png" width="20px"><br>
+<img src="phones.png" width="20px"><br>
+<img src="mes.png" width="20px"><br>
+</div>
+<div class="suit">
+    <h2> Suite 18, Gauraka, Amanda Plaza, Tafa Local Government Area, Abuja.</h2>
+    <h2> 08139121950</h2>
+    <h2> gospelp07@gmail.com</h2>
+</div>
+</div>
+<div class="fol">
+<h1> Follow Me</h1>
+<img src="xs.png">
+<img src="face.png">
+<img src="link.png">
+<img src="insta.png">
+</div>
+</div>
+<form action="#">
+<div class="text">
+    <input type="text" placeholder="Your Name" required><br>
+    <input type="email" placeholder="Your Email" required><br>
+    <input type="text" placeholder="Subject" required><br>
+    <input type="url" placeholder="Website URL" required><br>
+    <textarea class="area" placeholder="Type your message here" required></textarea><br>
+    <form action="aboutus.html">
+<button class="send"> Send Message </button>
+</form>
+</div>
+</div>
+<center>
+<div class="runner">
+    <img src="run.png" >
+    <h2>No internet</h2>
+</div>
+</center>
+<div class="footer"> 
+    <center>
+<img src="lodos.png" width="120">
+<h3>Follow my Social media handles to know and Explore more of my works</h3>
+<div class="logos">
+<div>
+<img src="f.png" style="margin-top: 10px;">
+</div>
+<div>
+    <img src="x.png"  style="margin-top: 10px;">
+</div>
+<div>
+    <img src="in.png"  style="margin-top: 8px;">
+</div>
+<div>
+    <img src="what.png"  style="margin-top: 9px;">
+</div>
+<div>
+    <img src="instaa.png"  style="margin-top: 10px;">
+</div>
+</div>
+<hr style="margin-top: 50px;">
+<h4 class="fo"> ⓒ 2024 AuthenticStar. All rights reserved | Design by <a>STAR_LORD.</a></h4>
+<br>
+</div>
+<a href="#move" id="mova">
+    <img src="move.png" width="50" class="mover"></a>
+    
+<script>
+    function dark(){
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+
+        var toggleState = true; // or false
+        localStorage.setItem('element', toggleState);
+        const storedToggleState = localStorage.getItem('element');
+    }
+
+
+    var heads = document.getElementById("heads")
+    var mova = document.getElementById("mova")
+    window.onscroll = function(){scrollFunction()};
+    function scrollFunction(){
+        if(document.body.scrollTop > 30 || document.documentElement.scrollTop > 30){
+            mova.style.display = "block";
+        }
+        else{
+            mova.style.display = "none";      
+          }
+    }
+</script>
+
+
+
+</body>
+</html>
+asggh
